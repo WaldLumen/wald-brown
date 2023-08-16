@@ -12,7 +12,7 @@ exec_always --no-startup-id flameshot
 exec_always --no-startup-id picom
 
 #Wallpapers
-exec_always --no-startup-id feh --bg-fill Pictures/Wallpapers/1.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/Wallpapers/1.jpg
 
 # language
 exec_always --no-startup-id setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle,grp_led:scroll' -option ctrl:ralt_rctrl
