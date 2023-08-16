@@ -108,7 +108,7 @@ interval = 60
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume-prefix = "墳 "
+format-volume-prefix = "󰕾 "
 # format-volume-background = ${colors.background-alt}
 format-volume-prefix-foreground = ${colors.primary}
 format-volume = <label-volume>
