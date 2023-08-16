@@ -16,7 +16,8 @@ Just cool screnshoot
 
 Dependencies:
 ```
-sudo pacman -S alacritty picom polybar rofi zathura python-pywal ttf-jetbrains-mono alsa-utils flameshot
+sudo pacman -S alacritty picom polybar rofi zathura python-pywal ttf-jetbrains-mono alsa-utils flameshot  `
+yay -S cava
 ```
 ---------------------------------
 
