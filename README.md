@@ -9,7 +9,7 @@ Wallpapers and polybar
 ![Wallpapers and polybar]()
 Firefox start page and theme
 ![Firefox start page and theme]()
-Just cool screnshoot
+Just cool screenshot
 ![Just cool screnshoot]()
 
 ---------------------------------
@@ -25,7 +25,8 @@ yay -S cava
 Installing
 ```
 git clone https://github.com/WaldLumen/wald-brown.git $HOME/Downloads/wald-brown
-cp -r $HOME/Downloads/wald-brown/wald-brown/* $HOME/.config 
+cp -r $HOME/Downloads/wald-brown/wald-brown/* $HOME/.config
+chmod +x .config/polybar/cava.sh
 ```
 ---------------------------------
 
