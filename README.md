@@ -7,7 +7,7 @@ Brown [i3] rice.
 
 Wallpapers and polybar
 ![Wallpapers and polybar](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/1.png)
-Firefox start page and theme
+Rofi
 ![Rofi](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/2.png)
 Just terminal
 ![Just cool screnshoot](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/3.png)
