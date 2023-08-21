@@ -5,7 +5,7 @@ Brown [i3] rice.
 
 ---------------------------------
 
-Wallpapers and polybar
+Wallpapers and old polybar
 ![Wallpapers and polybar](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/1.png)
 Rofi
 ![Rofi](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/2.png)
