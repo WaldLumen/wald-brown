@@ -1,7 +1,7 @@
-tion {
+configuration {
 	modi:				"drun";
-	font:				"JetBrain Bold";
-	display-drun: 			"";
+	font:				"JetBrains Mono Nerd Font 10";
+	display-drun: 			">>";
 	sidebar-mode: 			false;
 }
 
@@ -28,7 +28,7 @@ window {
 prompt { enabled: false; }
 
 entry {
-	placeholder:			"Search";
+	placeholder:			"#######";
 	expand:                         true;
 	padding:                        5px 2% 5px 2%;
 	background-color:               @button;

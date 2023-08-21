@@ -1,73 +1,33 @@
+# Sys
 set $mod Mod4
-
-font JetBrainsMonoMedium Nerd 
-
-#ClipIt
-exec_always --no-startup-id clipit
-
-#Flameshot
-exec_always --no-startup-id flameshot
-
-#Picom
-exec_always --no-startup-id picom
-
-#Wallpapers
-exec_always --no-startup-id feh --bg-fill $HOME/.config/Wallpapers/brown1.jpg
-
-# language
 exec_always --no-startup-id setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle,grp_led:scroll' -option ctrl:ralt_rctrl
-
-# polybar
-exec_always --no-startup-id sh .config/polybar/launch.sh
-
-# microphone noise suppression
-exec_always --no-startup-id noisetorch -u
-exec_always --no-startup-id noisetorch -s "alsa_input.usb-0c76_USB_PnP_Audio_Device-00.mono-fallback" -i
-
-#notifications 
-exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
-
-#???
-exec --no-startup-id gnome-keyring-daemon --start &
-
-# utility which provides a large array of audio effects
-exec_always --no-startup-id easyeffects --gapplication-service
-
-# second monitor
 exec --no-startup-id xrandr --output LVDS-1 --auto --left-of HDMI-1 &
-
-# Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-
-# Use Mouse+$mod to drag floating windows to their wanted position
+exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 floating_modifier $mod
 
-#					Apps
-# emacs
+# L&F
+exec_always --no-startup-id picom
+exec_always --no-startup-id feh --bg-fill $HOME/.config/Wallpapers/brown1.jpg
+exec_always --no-startup-id sh .config/polybar/launch.sh
+
+
+
+# Apps
 bindsym $mod+e exec emacs
-
-# firefox
 bindsym $mod+Shift+f exec firefox
+bindsym $mod+Return exec xterm
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
-# start terminal
-bindsym $mod+Return exec alacritty
-
-#				      Windows
-# kill focused window
-bindsym $mod+q kill
-
-# screenshot
-bindsym $mod+p exec flameshot gui -p /home/silvia/Photos/Screenshots
-
-# start rofi (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show drun 
-
-# show all opened windows
-bindsym Mod1+Tab exec --no-startup-id rofi -modi combi -combi-modi window -show combi
-
-# change volume
+# volume up and down
 bindsym $mod+F8 exec amixer set Master 5%-
 bindsym $mod+F9 exec amixer set Master 5%+
+
+# Windows managemant
+
+bindsym $mod+q kill
+bindsym $mod+f fullscreen toggle
+
+
 
 # change focus
 bindsym $mod+j focus left
@@ -87,14 +47,13 @@ bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -165,9 +124,9 @@ client.focused_inactive #2b3339 #2b3339 #2b3339 #2b3339 #2b3339
 client.unfocused        #2b3339 #2b3339 #2b3339 #2b3339 #2b3339                                                                            
 client.focused          #6b4b39 #6b4b39 #6b4b39 #6b4b39 #6b4b39
 for_window [class="^.*"] border pixel 2
-gaps inner 8
+gaps inner 4
 # smart_borders on
 # smart_gaps on
-gaps outer 4
+gaps outer 0
 gaps top 2
 gaps bottom 4
