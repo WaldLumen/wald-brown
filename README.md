@@ -7,6 +7,8 @@ Brown [i3] rice.
 
 Wallpapers and old polybar
 ![Wallpapers and polybar](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/1.png)
+Wallpapers and new polybar
+![Wallpapers and polybar](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/4.png)
 Rofi
 ![Rofi](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/2.png)
 Just terminal
