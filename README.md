@@ -10,7 +10,7 @@ Wallpapers and old polybar
 Wallpapers and new polybar
 ![Wallpapers and polybar](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/4.png)
 Rofi
-![Rofi](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/2.png)
+![Rofi](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/5.png)
 Just terminal
 ![Just cool screnshoot](https://github.com/WaldLumen/wald-brown/blob/main/screenshots/3.png)
 
